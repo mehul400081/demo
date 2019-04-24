@@ -69,8 +69,7 @@
 					  <repository>${docker.repo.username}/${docker.image.prefix}</repository>
 					  <tag>${project.version}</tag>
 					  <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
-					  <serverId>dockerhubCred</serverId>
-					  <registryUrl>registry.hub.docker.com/mehul400081</registryUrl>
+					  <serverId>docker.io</serverId>
 					   <buildArgs>
                             <JAR_FILE>target/${artifactId}-${version}.jar</JAR_FILE>
                         </buildArgs>
