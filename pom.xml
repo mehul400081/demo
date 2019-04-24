@@ -71,6 +71,9 @@
 					  <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 					  <serverId>dockerhubCred</serverId>
 					  <registryUrl>registry.hub.docker.com/mehul400081</registryUrl>
+					   <buildArgs>
+                            <JAR_FILE>target/${artifactId}-${version}.jar</JAR_FILE>
+                        </buildArgs>
 				</configuration>
             </plugin>
             <!-- end::plugin[] -->
