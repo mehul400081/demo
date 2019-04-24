@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mvn install dockerfile:push'
+                sh 'mvn install dockerfile:build'
             }
         }
     }
